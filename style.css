@@ -1,0 +1,83 @@
+#titular{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 180px;
+}
+
+div.encabezado{
+    border: 10px double black;
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 280px;
+    text-align: center;
+    font-size: x-large;
+}
+.titulo{
+    display: flex;
+    align-items:center ;
+   font-size: 100px;
+}
+.fecha{
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    padding: 20px;
+    font-size: x-large;
+}
+#contenedor{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    justify-content: space-evenly;
+    gap: 25px;
+    font-size:x-large;
+
+}
+.bloque1,.bloque2,.bloque3,.bloque4,.bloque5{
+    width: 20%;
+}
+.bloque1>i, .bloque2>i, .bloque4>i,.bloque3>h3,.bloque5>h3{
+    font-size: 40px;
+    flex-direction:column;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+.bloque1,.bloque2,.bloque3,.bloque4{
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+.subtitulobloque1{
+    margin-top: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size:15px;
+}
+.subtitulobloque2{
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+font-size: 25px;
+}
+.subtitulobloque3{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 38px;
+    height:140px ;
+}
+.segundosubbloque3{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 45px;
+}
+.subtitulobloque4{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+.subtitulobloque5{
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+display: flex;
+}
